@@ -16,3 +16,8 @@ class IngestorInterface(ABC):
     @abstractmethod
     def parse(cls, path: str) -> List[QuoteModel]:
         pass
+
+
+class InvalidExtensionError(Exception):
+    """Raise when file extension is NOT valid"""
+    pass
