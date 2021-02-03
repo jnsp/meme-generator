@@ -1,4 +1,4 @@
-from quoteengine import QuoteModel
+from quote_engine import QuoteModel
 
 
 class TestQuoteModel:
