@@ -1,0 +1,1 @@
+from .quotemodel import QuoteModel
