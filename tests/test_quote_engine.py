@@ -1,7 +1,7 @@
 import pytest
 
 from quote_engine import QuoteModel, CSVIngestor, DOCXIngestor, \
-    InvalidExtensionError
+    PDFIngestor, InvalidExtensionError
 
 
 class TestQuoteModel:
@@ -13,7 +13,9 @@ class TestQuoteModel:
 
 
 @pytest.mark.parametrize('test_ingestor, right_ext',
-                         [(CSVIngestor, 'csv'), (DOCXIngestor, 'docx')])
+                         [(CSVIngestor, 'csv'),
+                          (DOCXIngestor, 'docx'),
+                          (PDFIngestor, 'pdf')])
 class TestIngestor:
     def test_can_ingest(self, test_ingestor, right_ext):
         test_filename = 'TEST_FILE'
