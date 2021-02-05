@@ -10,7 +10,7 @@ This is a multimedia application to dynamically generate memes, including an ima
 $ python --version
 Python 3.9.1
 
-$ pip install requirement.txt
+$ pip install requirements.txt
 ```
 
 ### pdftotext
@@ -25,16 +25,18 @@ $ pytest -v --disable-warnings
 ### Quote engine
 
 The `quote_engine` module is responsible for ingesting many types of files that contain quotes.
-The `Ingestor` class can read different kinds of file formats suchh as 'csv', 'docx', 'pdf', and 'txt'.
+The `Ingestor` class can read different kinds of file formats such as 'csv', 'docx', 'pdf', and 'txt'.
 
 #### Quote format
+
+Any quote have follow the format below.
 
 > "This is quote body" - author
 
 ### Meme engine
 
 The `meme_engine` module is responsible for manipulating and drawing text onto images.
-The `MemeGenerator` class accepts the path of image and converts meme image with a quote.
+The `MemeGenerator` class accepts the path of image and converts it to a meme image with a quote.
 
 ## Notes
 
