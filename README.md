@@ -36,7 +36,7 @@ Any quote have follow the format below.
 ### Meme engine
 
 The `meme_engine` module is responsible for manipulating and drawing text onto images.
-The `MemeGenerator` class accepts the path of image and converts meme image with a quote.
+The `MemeGenerator` class accepts the path of image and converts it to a meme image with a quote.
 
 ## Notes
 
