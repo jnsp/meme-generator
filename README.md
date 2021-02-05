@@ -10,7 +10,7 @@ This is a multimedia application to dynamically generate memes, including an ima
 $ python --version
 Python 3.9.1
 
-$ pip install requirement.txt
+$ pip install requirements.txt
 ```
 
 ### pdftotext
