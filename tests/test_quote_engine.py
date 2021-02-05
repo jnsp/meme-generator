@@ -8,8 +8,8 @@ def test_quote_model_str():
     body = 'This is a test quote'
     author = 'tester'
     test_quote = QuoteModel(body, author)
-    assert test_quote._body
-    assert test_quote._author
+    assert test_quote.body
+    assert test_quote.author
     assert str(test_quote) == f'"{body}" - {author}'
 
 
