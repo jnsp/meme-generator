@@ -25,9 +25,11 @@ $ pytest -v --disable-warnings
 ### Quote engine
 
 The `quote_engine` module is responsible for ingesting many types of files that contain quotes.
-The `Ingestor` class can read different kinds of file formats suchh as 'csv', 'docx', 'pdf', and 'txt'.
+The `Ingestor` class can read different kinds of file formats such as 'csv', 'docx', 'pdf', and 'txt'.
 
 #### Quote format
+
+Any quote have follow the format below.
 
 > "This is quote body" - author
 
