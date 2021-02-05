@@ -2,6 +2,8 @@
 
 This is a multimedia application to dynamically generate memes, including an image with an overlaid quote.
 
+![meme_exmaple](./tmp/meme_example.jpg)
+
 ## Requirements
 
 ### Python 3.9
