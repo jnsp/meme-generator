@@ -74,4 +74,4 @@ The `MemeGenerator` class accepts the path of image and converts it to a meme im
 
 ## Notes
 
-This is a class project from [the Intermediate Python Nanodegree Program](https://www.udacity.com/course/intermediate-python-nanodegree--nd303) on [Udacity](https://www.udacity.com/).
+This is a class project from [the Intermediate Python Nanodegree Program](https://www.udacity.com/course/intermediate-python-nanodegree--nd303) on [Udacity](https://www.udacity.com/). Thanks to @grutt for his great lecture.
