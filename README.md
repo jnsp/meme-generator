@@ -70,7 +70,7 @@ The `MemeGenerator` class accepts the path of image and converts it to a meme im
 
 ### Flask app
 
-'app.py' provides a Flask app.
+`app.py` provides a Flask app.
 
 ## Notes
 
