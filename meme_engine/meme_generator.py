@@ -16,7 +16,8 @@ class MemeGenerator:
 
             draw = ImageDraw.Draw(im)
             font = ImageFont.truetype('./fonts/LilitaOne-Regular.ttf', size=30)
-            position = (randint(5, width * 0.3), randint(5, height * 0.8))
+            position = (randint(5, int(width * 0.3)),
+                        randint(5, int(height * 0.8)))
             quote = f'{text}\n    - {author}'
             draw.text(position, quote, font=font, fill='black', stroke_width=2,
                       stroke_fill='white')
