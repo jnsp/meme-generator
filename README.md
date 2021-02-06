@@ -22,6 +22,30 @@ $ pip install requirements.txt
 ### How to test
 $ pytest -v --disable-warnings
 
+## How to use
+
+### CLI
+
+```bash
+$ python meme.py --help
+optional arguments:
+  -h, --help       show this help message and exit
+  --body BODY      a quote body text
+  --author AUTHOR  an author of quote
+  --path PATH      a path of image directory
+```
+
+### Flask app
+
+Flask provides a run command to run the application with a development server.
+In development mode, this server provides an interactive debugger and will reload when code is changed.
+
+```bash
+$ export FLASK_APP=app
+$ export FLASK_ENV=development
+$ python flask run
+```
+
 ## Modules
 
 ### Quote engine
@@ -39,6 +63,14 @@ Any quote have follow the format below.
 
 The `meme_engine` module is responsible for manipulating and drawing text onto images.
 The `MemeGenerator` class accepts the path of image and converts it to a meme image with a quote.
+
+### CLI
+
+`meme.py` provides a CLI tool.
+
+### Flask app
+
+'app.py' provides a Flask app.
 
 ## Notes
 
